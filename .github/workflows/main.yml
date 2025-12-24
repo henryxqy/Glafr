@@ -2,7 +2,7 @@ name: Daily Update
 
 on:
   schedule:
-    - cron: '25 0 * * *'  # 每天早上北京时间8:25更新(UTC时间为00:25)
+    - cron: '01 4 * * *'  # 每天早上北京时间12:01更新(UTC时间为04:01)
   workflow_dispatch:
   push:
     branches: [main]
